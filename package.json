@@ -1,0 +1,23 @@
+{
+  "name": "act-template",
+  "version": "1.0.0",
+  "description": "create activity single file html",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "chenzhe",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-inline-source": "^3.1.0",
+    "gulp-postcss": "^7.0.0",
+    "postcss-assets": "^5.0.0",
+    "postcss-pxtorem": "^4.0.1"
+  }
+}
