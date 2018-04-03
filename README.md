@@ -4,6 +4,8 @@
 
 主要功能有：flexible响应移动端，px转rem，自定义图片内联；
 
+默认 1rem = 75px,  750 * 1334 iphone6s
+
 ---
 ## 使用
 
@@ -27,7 +29,8 @@ script, link标签一样可以这样来内联。
 
 ### main.css
 
-没有预处理器，有prefixer。
+没有预处理器, 有 prefixer;
+
 图片需要内联的用`inline()`, 例如：`background-image: inline("...")`
 
 另外编译过程会生成`src/_temp`不用理会（后面想办法去掉）
