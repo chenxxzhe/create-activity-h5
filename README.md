@@ -2,9 +2,9 @@
 
 用于快速实现移动端活动页H5，CSS与JS会内联到HTML，最终构建出单一个HTML文件。
 
-主要功能有：flexible响应移动端，px转rem，自定义图片内联；
+主要功能有：flexible响应移动端，px 转 rem，自定义图片内联；
 
-默认 1rem = 75px,  750 * 1334 iphone6s
+默认 1rem = 75px,  750 * 1334 iPhone 6s
 
 ---
 ## 使用
@@ -27,15 +27,13 @@ script, link标签一样可以这样来内联。
 > todo: babel, require
 
 
-### main.css
+### main.less
 
-没有预处理器, 有 prefixer;
-
-图片需要内联的用`inline()`, 例如：`background-image: inline("...")`
+图片需要内联的用`inline()`, 例如：`background-image: inline("...")` (使用了less，应该会报错)
 
 另外编译过程会生成`src/_temp`不用理会（后面想办法去掉）
 
-> todo: less
+> todo: 去掉编译的中间文件 `src/_temp`
 
 
 ---
