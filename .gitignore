@@ -60,3 +60,4 @@ typings/
 
 dest
 _temp
+.DS_Store
